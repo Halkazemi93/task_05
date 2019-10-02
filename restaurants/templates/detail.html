@@ -5,6 +5,16 @@
         <title>Detail</title>
     </head>
     <body>
+    	<a href="{% url 'restaurant-list'}">View List</a>
+    	<ul>
+    		<li>
+    			{{ restaurant.name }}
+    		</li>
+    		<li>
+    			{{ restaurant.description }}
+    		</li>
+
+    	</ul>
         
     </body>
 </html>
